@@ -1,18 +1,42 @@
 body{
   background-color: #5EAAA8;
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 h1{
+  
   margin-top: 0;
+  font-family: 'Architects Daughter', cursive;
+}
+
+h2{
+
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+
+  font-family: 'Roboto', sans-serif;
 }
 
 p{
-  margin-top: 0;
+  width: 10%;
+  margin: 0 auto 0 auto;
+  margin-bottom:40px;
 }
 
+/*Descendant Selectors example*/
+p b,a{
+  color: red;
+  text-decoration: none;
+}
+/*===========================================================*/
 .top-container{
   background-color: #AEE1E1;
+  position:relative;
+  padding-top: 70px;
 }
 
 .middle-container{
@@ -26,30 +50,28 @@ p{
   height: 200px;
   width: 200px;
 }
-.center{
-  text-align: center;
-  margin:20px;
-}
+.cloud1{
 
-#one{
-  position: relative;
-  left:600px;
-  margin-top:10px;
+  position: absolute;
+  right: 590px;
+  top: 70px;
 }
-#two{
-  position: relative;
-  left:1100px;
-}
+.cloud2{
 
-#mountain{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  position:absolute;
+  top:200px;
+  bottom:300px;
+}
+.cloud3{
+
+  position:absolute;
+  top:250px;
+  right: 450px;
 
 }
-
-/*Descendant Selectors example*/
-p b,a{
-  color: red;
-  text-decoration: none;
+.mountain{
+  position:relative;
+  width: 700px;
+  height: 450px;
 }
+/*===========================================================*/
