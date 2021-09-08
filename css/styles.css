@@ -25,7 +25,6 @@ p {
   font-size:20px;
 }
 
-/*Descendant Selectors example*/
 a {
   color: black;
   text-decoration: none;
@@ -53,17 +52,15 @@ a {
 }
 .top-container {
   background-color: #AEE1E1;
-
   padding-top: 150px;
   text-align:center;
-  position:relative;
 }
 
 .middle-container {
   padding-top: 20px;
 }
 .middle-container p {
-  width: 15%;
+  width: 10%;
   margin: 0 auto 0 auto;
   margin-bottom: 20px;
   text-align: justify;
@@ -80,8 +77,10 @@ a {
 
 .cloud1 {
   position: absolute;
-  top: 70px;
-  right: 590px;
+  top: 200px;
+  bottom: 300px;
+  left: auto;
+  right: auto;
 }
 
 .cloud2 {
@@ -92,8 +91,10 @@ a {
 
 .cloud3 {
   position: absolute;
-  top: 250px;
-  right: 450px;
+  top: 200px;
+  bottom: 300px;
+  left: auto;
+  right: auto;
 }
 
 .mountain {
@@ -106,6 +107,5 @@ a {
   border-radius: 15px;
   box-shadow:5px 5px #888888;
 }
-
 
 /*===========================================================*/
