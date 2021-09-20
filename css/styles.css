@@ -7,6 +7,7 @@ body {
 }
 
 h1 {
+  font-size:90px;
   margin-top: 0;
   font-family: 'Architects Daughter', cursive;
 }
@@ -25,6 +26,7 @@ p {
   font-size:20px;
 }
 
+/*Descendant Selectors example*/
 a {
   color: black;
   text-decoration: none;
@@ -77,24 +79,14 @@ a {
 
 .cloud1 {
   position: absolute;
-  top: 200px;
-  bottom: 300px;
-  left: auto;
-  right: auto;
+  top: 79px;
+  right: 590px;
 }
 
 .cloud2 {
   position: absolute;
   top: 200px;
   bottom: 300px;
-}
-
-.cloud3 {
-  position: absolute;
-  top: 200px;
-  bottom: 300px;
-  left: auto;
-  right: auto;
 }
 
 .mountain {
@@ -108,14 +100,5 @@ a {
   box-shadow:5px 5px #888888;
 }
 
-.form{
-  background-color: red;
-  width: 300px;
-  height:250px;
-}
-.button {
-  width: 100px;
-  height:50px;
-}
 
 /*===========================================================*/
